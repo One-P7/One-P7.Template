@@ -10,15 +10,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Tests", "4. Tests", "{1B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. CommonLayer", "0. CommonLayer", "{AFF40D05-8FBF-4C59-B748-E6B60FEC04EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeLayer.Common", "ThreeLayer.Common\ThreeLayer.Common.csproj", "{0DB34FCE-9675-4D41-9186-9054A6006F33}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "One-P7.ThreeLayer.Common", "One-P7.ThreeLayer.Common\One-P7.ThreeLayer.Common.csproj", "{0DB34FCE-9675-4D41-9186-9054A6006F33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeLayer.Service", "ThreeLayer.Service\ThreeLayer.Service.csproj", "{33F51572-947D-425D-9BE5-BD84E9DCF33E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "One-P7.ThreeLayer.Service", "One-P7.ThreeLayer.Service\One-P7.ThreeLayer.Service.csproj", "{33F51572-947D-425D-9BE5-BD84E9DCF33E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeLayer.Repository", "ThreeLayer.Repository\ThreeLayer.Repository.csproj", "{93B0B709-3084-4798-9179-B933FC9FD4BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "One-P7.ThreeLayer.Repository", "One-P7.ThreeLayer.Repository\One-P7.ThreeLayer.Repository.csproj", "{93B0B709-3084-4798-9179-B933FC9FD4BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeLayer.WebApi", "ThreeLayer.WebApi\ThreeLayer.WebApi.csproj", "{3B9BD1A0-7007-4A82-B339-502341FC981A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "One-P7.ThreeLayer.WebApi", "One-P7.ThreeLayer.WebApi\One-P7.ThreeLayer.WebApi.csproj", "{3B9BD1A0-7007-4A82-B339-502341FC981A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeLayer.Database.AdventureWorks", "ThreeLayer.Database.AdventureWorks\ThreeLayer.Database.AdventureWorks.csproj", "{080A6F8E-4C40-46B5-99A4-C344641A867E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "One-P7.ThreeLayer.Database.AdventureWorks", "One-P7.ThreeLayer.Database.AdventureWorks\One-P7.ThreeLayer.Database.AdventureWorks.csproj", "{080A6F8E-4C40-46B5-99A4-C344641A867E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -4,6 +4,7 @@
         <TargetFramework>net8.0</TargetFramework>
         <Nullable>disable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>ThreeLayer.WebApi</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -22,10 +23,10 @@
     </ItemGroup>
     
     <ItemGroup>
-      <ProjectReference Include="..\ThreeLayer.Common\ThreeLayer.Common.csproj" />
-      <ProjectReference Include="..\ThreeLayer.Database.AdventureWorks\ThreeLayer.Database.AdventureWorks.csproj" />
-      <ProjectReference Include="..\ThreeLayer.Repository\ThreeLayer.Repository.csproj" />
-      <ProjectReference Include="..\ThreeLayer.Service\ThreeLayer.Service.csproj" />
+      <ProjectReference Include="..\One-P7.ThreeLayer.Common\One-P7.ThreeLayer.Common.csproj" />
+      <ProjectReference Include="..\One-P7.ThreeLayer.Database.AdventureWorks\One-P7.ThreeLayer.Database.AdventureWorks.csproj" />
+      <ProjectReference Include="..\One-P7.ThreeLayer.Repository\One-P7.ThreeLayer.Repository.csproj" />
+      <ProjectReference Include="..\One-P7.ThreeLayer.Service\One-P7.ThreeLayer.Service.csproj" />
     </ItemGroup>
 
 </Project>

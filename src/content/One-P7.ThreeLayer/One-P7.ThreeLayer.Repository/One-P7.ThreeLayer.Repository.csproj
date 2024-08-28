@@ -4,6 +4,7 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>disable</Nullable>
+        <RootNamespace>ThreeLayer.Repository</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -17,8 +18,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\ThreeLayer.Common\ThreeLayer.Common.csproj" />
-      <ProjectReference Include="..\ThreeLayer.Database.AdventureWorks\ThreeLayer.Database.AdventureWorks.csproj" />
+      <ProjectReference Include="..\One-P7.ThreeLayer.Common\One-P7.ThreeLayer.Common.csproj" />
+      <ProjectReference Include="..\One-P7.ThreeLayer.Database.AdventureWorks\One-P7.ThreeLayer.Database.AdventureWorks.csproj" />
     </ItemGroup>
 
     <ItemGroup>
