@@ -1,0 +1,43 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "One-P7",
+    "classifications": [ "API" ],
+    "identity": "One-P7.Template",
+    "name": "One-P7 Template",
+    "shortName": "One-P7Template",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    },
+    "sourceName": "One-P7.ThreeLayer",
+    "preferNameDirectory": true,
+    "symbols": {
+      "contentRename": {
+        "type": "derived",
+        "valueSource": "name",
+        "valueTransform": "rename",
+        "replaces": "One-P7.ThreeLayer",
+        "description": "A value derived from the 'name' param, used to rename Application1.cs"
+      },
+      "projectRename": {
+        "type": "derived",
+        "valueSource": "name",
+        "valueTransform": "rename",
+        "fileRename": "One-P7.ThreeLayer",
+        "description": "A value derived from the 'name' param, used to rename Application1.cs"
+      },
+      "initGit": {
+        "type": "parameter",
+        "datatype": "bool",
+        "description": "If specified, skips the automatic init git repo of the project on create.",
+        "defaultValue": "false"
+      }
+    },
+    "forms": {
+      "rename": {
+        "identifier": "replace",
+        "pattern": "",
+        "replacement": ""
+      }
+    }
+  }
