@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. BusinessLogicLayer", "1. BusinessLogicLayer", "{8A92FD48-849A-4D72-91E5-3FA363F7D0AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. DataAccessLayer", "2. DataAccessLayer", "{CC6CCBEE-4BFF-4B15-BD15-757214F44CCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. PresentationLayer", "3. PresentationLayer", "{2B716C79-8262-469B-BE77-400C0DBE94A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Tests", "4. Tests", "{1B1C85D7-6CFB-455C-A7E6-001AE8BE0775}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. CommonLayer", "0. CommonLayer", "{AFF40D05-8FBF-4C59-B748-E6B60FEC04EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeLayer.Common", "ThreeLayer.Common\ThreeLayer.Common.csproj", "{0DB34FCE-9675-4D41-9186-9054A6006F33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeLayer.Service", "ThreeLayer.Service\ThreeLayer.Service.csproj", "{33F51572-947D-425D-9BE5-BD84E9DCF33E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeLayer.Repository", "ThreeLayer.Repository\ThreeLayer.Repository.csproj", "{93B0B709-3084-4798-9179-B933FC9FD4BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeLayer.WebApi", "ThreeLayer.WebApi\ThreeLayer.WebApi.csproj", "{3B9BD1A0-7007-4A82-B339-502341FC981A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeLayer.Database.AdventureWorks", "ThreeLayer.Database.AdventureWorks\ThreeLayer.Database.AdventureWorks.csproj", "{080A6F8E-4C40-46B5-99A4-C344641A867E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DB34FCE-9675-4D41-9186-9054A6006F33} = {AFF40D05-8FBF-4C59-B748-E6B60FEC04EB}
+		{33F51572-947D-425D-9BE5-BD84E9DCF33E} = {8A92FD48-849A-4D72-91E5-3FA363F7D0AD}
+		{93B0B709-3084-4798-9179-B933FC9FD4BB} = {CC6CCBEE-4BFF-4B15-BD15-757214F44CCE}
+		{3B9BD1A0-7007-4A82-B339-502341FC981A} = {2B716C79-8262-469B-BE77-400C0DBE94A4}
+		{080A6F8E-4C40-46B5-99A4-C344641A867E} = {CC6CCBEE-4BFF-4B15-BD15-757214F44CCE}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DB34FCE-9675-4D41-9186-9054A6006F33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB34FCE-9675-4D41-9186-9054A6006F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB34FCE-9675-4D41-9186-9054A6006F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB34FCE-9675-4D41-9186-9054A6006F33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33F51572-947D-425D-9BE5-BD84E9DCF33E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33F51572-947D-425D-9BE5-BD84E9DCF33E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33F51572-947D-425D-9BE5-BD84E9DCF33E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33F51572-947D-425D-9BE5-BD84E9DCF33E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93B0B709-3084-4798-9179-B933FC9FD4BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93B0B709-3084-4798-9179-B933FC9FD4BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93B0B709-3084-4798-9179-B933FC9FD4BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93B0B709-3084-4798-9179-B933FC9FD4BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B9BD1A0-7007-4A82-B339-502341FC981A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B9BD1A0-7007-4A82-B339-502341FC981A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B9BD1A0-7007-4A82-B339-502341FC981A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B9BD1A0-7007-4A82-B339-502341FC981A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{080A6F8E-4C40-46B5-99A4-C344641A867E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{080A6F8E-4C40-46B5-99A4-C344641A867E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{080A6F8E-4C40-46B5-99A4-C344641A867E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{080A6F8E-4C40-46B5-99A4-C344641A867E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
