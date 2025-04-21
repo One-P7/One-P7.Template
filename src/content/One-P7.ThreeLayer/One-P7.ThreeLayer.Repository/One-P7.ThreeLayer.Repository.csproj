@@ -20,6 +20,7 @@
     <ItemGroup>
       <ProjectReference Include="..\One-P7.ThreeLayer.Common\One-P7.ThreeLayer.Common.csproj" />
       <ProjectReference Include="..\One-P7.ThreeLayer.Database.AdventureWorks\One-P7.ThreeLayer.Database.AdventureWorks.csproj" />
+      <ProjectReference Include="..\One-P7.ThreeLayer.Database.SQLiteAdventureWorks\One-P7.ThreeLayer.Database.SQLiteAdventureWorks.csproj" />
     </ItemGroup>
 
     <ItemGroup>
