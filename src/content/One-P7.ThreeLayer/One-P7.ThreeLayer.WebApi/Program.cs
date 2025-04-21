@@ -1,4 +1,4 @@
-using ThreeLayer.Database.AdventureWorks.DependencyInjection;
+using One_P7.ThreeLayer.Database.SQLiteAdventureWorks.DependencyInjection;
 using ThreeLayer.Repository.DependencyInjection;
 using ThreeLayer.Service.DependencyInjection;
 
@@ -14,7 +14,8 @@ builder.Services.AddService();
 builder.Services.AddRepository();
 
 // 註冊 Adventure Works EFCore
-builder.Services.AddAdventureWorksDbContext(builder.Configuration);
+//builder.Services.AddAdventureWorksDbContext(builder.Configuration);
+builder.Services.AddSQLiteDbContext(builder.Configuration);
 
 // 註冊 Swagger
 builder.Services.AddSwaggerGen();
