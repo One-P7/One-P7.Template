@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using One_P7.ThreeLayer.Database.ChinookDbSqlite.Models;
+using ThreeLayer.Database.ChinookDbSqlite.Models;
 
-namespace One_P7.ThreeLayer.Database.ChinookDbSqlite;
+namespace ThreeLayer.Database.ChinookDbSqlite;
 
 public partial class ChinookSqliteContext : DbContext
 {

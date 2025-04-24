@@ -1,4 +1,4 @@
-namespace One_P7.ThreeLayer.Database.ChinookDbSqlite.Models;
+namespace ThreeLayer.Database.ChinookDbSqlite.Models;
 
 public partial class Invoice
 {

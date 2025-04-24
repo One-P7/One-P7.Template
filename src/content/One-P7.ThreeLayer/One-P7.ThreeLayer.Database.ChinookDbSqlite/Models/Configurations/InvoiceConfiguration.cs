@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace One_P7.ThreeLayer.Database.ChinookDbSqlite.Models.Configurations;
+namespace ThreeLayer.Database.ChinookDbSqlite.Models.Configurations;
 
 public partial class InvoiceConfiguration : IEntityTypeConfiguration<Invoice>
 {

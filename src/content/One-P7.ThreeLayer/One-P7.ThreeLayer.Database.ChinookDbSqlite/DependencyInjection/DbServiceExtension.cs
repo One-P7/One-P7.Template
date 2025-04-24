@@ -3,7 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace One_P7.ThreeLayer.Database.ChinookDbSqlite.DependencyInjection;
+namespace ThreeLayer.Database.ChinookDbSqlite.DependencyInjection;
 
 public static class DbServiceExtension
 {
