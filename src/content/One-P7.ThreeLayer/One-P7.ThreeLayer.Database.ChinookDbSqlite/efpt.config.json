@@ -1,0 +1,89 @@
+﻿{
+   "CodeGenerationMode": 5,
+   "ContextClassName": "D:\\Project\\One-P7\\One-P7.Template\\src\\content\\One-P7.ThreeLayer\\One-P7.ThreeLayer.Database.ChinookDbSqlite\\Chinook_Sqlite.sqliteContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "One_P7.ThreeLayer.Database.ChinookDbSqlite",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "Album",
+         "ObjectType": 0
+      },
+      {
+         "Name": "Artist",
+         "ObjectType": 0
+      },
+      {
+         "Name": "Customer",
+         "ObjectType": 0
+      },
+      {
+         "Name": "Employee",
+         "ObjectType": 0
+      },
+      {
+         "Name": "Genre",
+         "ObjectType": 0
+      },
+      {
+         "Name": "Invoice",
+         "ObjectType": 0
+      },
+      {
+         "Name": "InvoiceLine",
+         "ObjectType": 0
+      },
+      {
+         "Name": "MediaType",
+         "ObjectType": 0
+      },
+      {
+         "Name": "Playlist",
+         "ObjectType": 0
+      },
+      {
+         "Name": "PlaylistTrack",
+         "ObjectType": 0
+      },
+      {
+         "Name": "Track",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDatabaseNamesForRoutines": true,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": true,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseInternalAccessModifiersForSprocsAndFunctions": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false,
+   "UseT4Split": false
+}
