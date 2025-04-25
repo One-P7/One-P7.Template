@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
-    <RootNamespace>One_P7.ThreeLayer.Database.ChinookDbSqlite</RootNamespace>
+    <RootNamespace>ThreeLayer.Database.ChinookDbSqlite</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
   </PropertyGroup>
