@@ -11,7 +11,7 @@ public static class DbServiceExtension
     /// 註冊 Adventure Works 的 EFCore DbContext
     /// </summary>
     /// <returns></returns>
-    public static IServiceCollection AddAdventureWorksDbContext(
+    public static IServiceCollection AddChinookSqliteDbContext(
         this IServiceCollection services,
         IConfiguration configuration)
     {

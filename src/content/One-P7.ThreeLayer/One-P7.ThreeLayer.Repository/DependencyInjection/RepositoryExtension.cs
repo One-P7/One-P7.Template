@@ -17,6 +17,7 @@ public static class RepositoryExtension
     public static IServiceCollection AddRepository(this IServiceCollection services)
     {
         services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+        services.AddScoped<IArtistRepository, ArtistRepository>();
         return services;
     }
 }

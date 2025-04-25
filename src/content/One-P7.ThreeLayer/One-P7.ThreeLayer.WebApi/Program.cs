@@ -1,4 +1,5 @@
 using ThreeLayer.Database.AdventureWorks.DependencyInjection;
+using ThreeLayer.Database.ChinookDbSqlite.DependencyInjection;
 using ThreeLayer.Repository.DependencyInjection;
 using ThreeLayer.Service.DependencyInjection;
 
@@ -15,6 +16,7 @@ builder.Services.AddRepository();
 
 // 註冊 Adventure Works EFCore
 builder.Services.AddAdventureWorksDbContext(builder.Configuration);
+builder.Services.AddChinookSqliteDbContext(builder.Configuration);
 
 // 註冊 Swagger
 builder.Services.AddSwaggerGen();
