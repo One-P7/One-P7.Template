@@ -48,9 +48,10 @@ public class ArtistService(IArtistRepository artistRepository) : IArtistService
     {
         return new ArtistDto
         {
-            AlbumId = 0,
-            Title = result.Name,
-            ArtistId = result.ArtistId
+            ArtistId = result.ArtistId,
+            Name = result.Name,
+            AlbumCount = result.AlbumCount,
+            TracksCount = result.TracksCount
         };
     }
 }
