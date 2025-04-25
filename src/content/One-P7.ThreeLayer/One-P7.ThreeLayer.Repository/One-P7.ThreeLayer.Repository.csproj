@@ -22,9 +22,5 @@
       <ProjectReference Include="..\One-P7.ThreeLayer.Database.AdventureWorks\One-P7.ThreeLayer.Database.AdventureWorks.csproj" />
       <ProjectReference Include="..\One-P7.ThreeLayer.Database.ChinookDbSqlite\One-P7.ThreeLayer.Database.ChinookDbSqlite.csproj" />
     </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Conditions\" />
-    </ItemGroup>
     
 </Project>
