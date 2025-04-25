@@ -16,6 +16,8 @@ builder.Services.AddRepository();
 
 // 註冊 Adventure Works EFCore
 builder.Services.AddAdventureWorksDbContext(builder.Configuration);
+
+// 註冊 Chinook EFCore
 builder.Services.AddChinookSqliteDbContext(builder.Configuration);
 
 // 註冊 Swagger
