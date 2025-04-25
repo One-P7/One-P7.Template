@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
+using ThreeLayer.Common.ActionFilters;
 using ThreeLayer.Service.Dtos;
 using ThreeLayer.Service.Interfaces;
+using ThreeLayer.WebApi.Controllers.Validators;
 using ThreeLayer.WebApi.Controllers.ViewModel;
 
 namespace ThreeLayer.WebApi.Controllers;
@@ -18,6 +20,8 @@ public class ArtistController(IArtistService artistsService) : ControllerBase
     /// </summary>
     /// <returns></returns>
     [HttpGet]
+    [ProducesResponseType(typeof(IEnumerable<ArtistViewModel>), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     public async Task<IActionResult> GetAllAsync()
     {
         var dtos = await artistsService.GetAllAsync();
@@ -33,6 +37,7 @@ public class ArtistController(IArtistService artistsService) : ControllerBase
     /// <param name="id"></param>
     /// <returns></returns>
     [HttpGet("{id}")]
+    [ParameterValidator(typeof(ArtistGetByIdValidator))]
     public async Task<IActionResult> GetByIdAsync(int id)
     {
         var dto = await artistsService.GetByIdAsync(id);
