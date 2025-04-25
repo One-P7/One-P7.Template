@@ -34,14 +34,14 @@ public class AlbumController(IAlbumService albumsService) : ControllerBase
             Order = parameter.Order,
         };
 
-        var dtos = await albumsService.GetAllAsync(query);
+        var resultDto = await albumsService.GetAllAsync(query);
 
         var viewModels = new ListResultViewModel<AlbumViewModel>
         {
-            TotalCount = dtos.Count(),
-            Page = 1,
-            PageSize = dtos.Count(),
-            Results = dtos.Select(ParseToViewModel)
+            TotalCount = resultDto.TotalCount,
+            Page = resultDto.Page,
+            PageSize = resultDto.PageSize,
+            Results = resultDto.Results.Select(ParseToViewModel)
         };
 
         return this.Ok(viewModels);
