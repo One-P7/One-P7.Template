@@ -51,9 +51,10 @@ public class ArtistController(IArtistService artistsService) : ControllerBase
     {
         return new ArtistViewModel
         {
-            AlbumId = 0,
-            Title = o.Name,
-            ArtistId = o.ArtistId
+            ArtistId = o.ArtistId,
+            Name = o.Name,
+            AlbumCount = o.AlbumCount,
+            TracksCount = o.TracksCount
         };
     }
 }
