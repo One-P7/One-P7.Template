@@ -48,8 +48,8 @@ public class ArtistService(IArtistRepository artistRepository) : IArtistService
     {
         return new ArtistDto
         {
-            AlbumId = result.AlbumId,
-            Title = result.Title,
+            AlbumId = 0,
+            Title = result.Name,
             ArtistId = result.ArtistId
         };
     }

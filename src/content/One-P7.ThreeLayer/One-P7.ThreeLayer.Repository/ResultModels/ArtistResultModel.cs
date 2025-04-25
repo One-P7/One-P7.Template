@@ -6,14 +6,19 @@ namespace ThreeLayer.Repository.ResultModels;
 public class ArtistResultModel
 {
     /// <summary>
-    /// 專輯 Id
+    /// 專輯數量
     /// </summary>
-    public int AlbumId { get; set; }
+    public int AlbumCount { get; set; }
 
     /// <summary>
-    /// 專輯名稱
+    /// 歌曲數量
     /// </summary>
-    public string Title { get; set; }
+    public int TracksCount { get; set; }
+
+    /// <summary>
+    /// 藝術家名稱
+    /// </summary>
+    public string Name { get; set; }
 
     /// <summary>
     /// 藝術家 Id
