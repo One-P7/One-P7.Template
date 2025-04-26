@@ -22,9 +22,10 @@ public class AlbumRepository(ChinookSqliteContext chinookSqliteContext) : IAlbum
     public async Task<ListResultModel<AlbumResultModel>> GetAllAsync(AlbumListCondition condition, CancellationToken cancellationToken = default)
     {
         var result = await chinookSqliteContext.Albums
-        .Skip(condition.Page * condition.PageSize)
-        .Take(condition.PageSize)
-        .ToListAsync(cancellationToken);
+            .Include(a => a.Artist)
+            .Skip(condition.Page * condition.PageSize)
+            .Take(condition.PageSize)
+            .ToListAsync(cancellationToken);
 
         var totalCount = await chinookSqliteContext.Albums.CountAsync(cancellationToken);
 
@@ -46,6 +47,7 @@ public class AlbumRepository(ChinookSqliteContext chinookSqliteContext) : IAlbum
     public Task<AlbumResultModel> GetByIdAsync(int id, CancellationToken cancellationToken = default)
     {
         var result = chinookSqliteContext.Albums
+            .Include(a => a.Artist)
             .Where(a => a.AlbumId == id)
             .Select(a => ParseToResultModel(a))
             .FirstOrDefaultAsync(cancellationToken);
@@ -64,7 +66,7 @@ public class AlbumRepository(ChinookSqliteContext chinookSqliteContext) : IAlbum
         {
             AlbumId = a.AlbumId,
             Title = a.Title,
-            ArtistName = a.Artist.Name,
+            ArtistName = a.Artist?.Name,
             ArtistId = a.ArtistId,
         };
     }
