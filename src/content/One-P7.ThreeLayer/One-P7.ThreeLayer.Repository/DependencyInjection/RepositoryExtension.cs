@@ -18,6 +18,7 @@ public static class RepositoryExtension
     {
         services.AddScoped<IEmployeeRepository, EmployeeRepository>();
         services.AddScoped<IArtistRepository, ArtistRepository>();
+        services.AddScoped<IAlbumRepository, AlbumRepository>();
         return services;
     }
 }

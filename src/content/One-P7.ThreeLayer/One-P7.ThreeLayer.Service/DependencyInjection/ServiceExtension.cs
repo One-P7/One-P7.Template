@@ -18,6 +18,7 @@ public static class ServiceExtension
     {
         services.AddScoped<IEmployeeService, EmployeeService>();
         services.AddScoped<IArtistService, ArtistService>();
+        services.AddScoped<IAlbumService, AlbumService>();
         return services;
     }
 }
