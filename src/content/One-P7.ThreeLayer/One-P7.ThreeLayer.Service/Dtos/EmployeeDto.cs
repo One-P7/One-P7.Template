@@ -1,7 +1,8 @@
-﻿using ThreeLayer.Common.Enums;
+﻿namespace ThreeLayer.Service.Dtos;
 
-namespace ThreeLayer.Service.Dtos;
-
+/// <summary>
+/// 員工資訊
+/// </summary>
 public class EmployeeDto
 {
     /// <summary>
@@ -10,67 +11,77 @@ public class EmployeeDto
     public int EmployeeId { get; set; }
 
     /// <summary>
-    /// 員工姓名
+    /// 姓
     /// </summary>
-    public string Name { get; set; }
+    public string LastName { get; set; }
 
     /// <summary>
-    /// 職位
+    /// 名
     /// </summary>
-    public JobFlag JobFlag { get; set; }
+    public string FirstName { get; set; }
 
     /// <summary>
-    /// 職位名稱
+    /// 職稱
     /// </summary>
-    public string JobTitle { get; set; }
+    public string Title { get; set; }
 
     /// <summary>
-    /// 獲取或設置員工所屬的部門名稱
-    /// </summary>
-    public string Department { get; set; }
-
-    /// <summary>
-    /// 獲取或設置員工的班次名稱
-    /// </summary>
-    public string Shift { get; set; }
-
-    /// <summary>
-    /// 獲取或設置員工的入職日期
-    /// </summary>
-    public DateOnly HireDate { get; set; }
-
-    /// <summary>
-    /// 獲取或設置員工的電子郵件地址
-    /// </summary>
-    public string EmailAddress { get; set; }
-
-    /// <summary>
-    /// 獲取或設置員工的電話號碼
-    /// </summary>
-    public string PhoneNumber { get; set; }
-
-    /// <summary>
-    /// 是否離職
-    /// </summary>
-    public bool IsLeaved { get; set; }
-
-    /// <summary>
-    /// 主管員工編號
+    /// 上級主管編號
     /// </summary>
     public int? HeadEmployeeId { get; set; }
 
     /// <summary>
-    /// 主管姓名
+    /// 上級主管實體
     /// </summary>
-    public string HeadName { get; set; }
+    public SimpleEmployeeDto HeadEmployee { get; set; }
 
     /// <summary>
-    /// 主管職位
+    /// 出生日期
     /// </summary>
-    public JobFlag HeadJobFlag { get; set; }
+    public DateTime? BirthDate { get; set; }
 
     /// <summary>
-    /// 主管職位
+    /// 雇用日期
     /// </summary>
-    public string HeadJobTitle { get; set; }
+    public DateTime? HireDate { get; set; }
+
+    /// <summary>
+    /// 地址
+    /// </summary>
+    public string Address { get; set; }
+
+    /// <summary>
+    /// 城市
+    /// </summary>
+    public string City { get; set; }
+
+    /// <summary>
+    /// 州/省
+    /// </summary>
+    public string State { get; set; }
+
+    /// <summary>
+    /// 國家
+    /// </summary>
+    public string Country { get; set; }
+
+    /// <summary>
+    /// 郵遞區號
+    /// </summary>
+    public string PostalCode { get; set; }
+
+    /// <summary>
+    /// 電話號碼
+    /// </summary>
+    public string Phone { get; set; }
+
+    /// <summary>
+    /// 傳真號碼
+    /// </summary>
+    public string Fax { get; set; }
+
+    /// <summary>
+    /// 電子郵件地址
+    /// </summary>
+    public string Email { get; set; }
 }

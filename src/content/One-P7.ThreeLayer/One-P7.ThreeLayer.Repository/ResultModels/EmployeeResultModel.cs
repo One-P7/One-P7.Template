@@ -6,62 +6,77 @@
 public class EmployeeResultModel
 {
     /// <summary>
-    /// 獲取或設置員工的唯一識別碼
+    /// 員工編號
     /// </summary>
     public int EmployeeId { get; set; }
 
     /// <summary>
-    /// 獲取或設置員工的名字
-    /// </summary>
-    public string FirstName { get; set; }
-
-    /// <summary>
-    /// 獲取或設置員工的姓氏
+    /// 姓
     /// </summary>
     public string LastName { get; set; }
 
     /// <summary>
-    /// 獲取或設置員工的職稱
+    /// 名
     /// </summary>
-    public string JobTitle { get; set; }
+    public string FirstName { get; set; }
 
     /// <summary>
-    /// 獲取或設置員工所屬的部門名稱
+    /// 職稱
     /// </summary>
-    public string Department { get; set; }
+    public string Title { get; set; }
 
     /// <summary>
-    /// 獲取或設置員工的班次名稱
+    /// 上級主管編號
     /// </summary>
-    public string Shift { get; set; }
+    public int? ReportsTo { get; set; }
 
     /// <summary>
-    /// 獲取或設置員工的入職日期
+    /// 出生日期
     /// </summary>
-    public DateOnly HireDate { get; set; }
+    public DateTime? BirthDate { get; set; }
 
     /// <summary>
-    /// 獲取或設置員工的電子郵件地址
+    /// 雇用日期
     /// </summary>
-    public string EmailAddress { get; set; }
+    public DateTime? HireDate { get; set; }
 
     /// <summary>
-    /// 獲取或設置員工的電話號碼
+    /// 地址
     /// </summary>
-    public string PhoneNumber { get; set; }
+    public string Address { get; set; }
 
     /// <summary>
-    /// 離職日期
+    /// 城市
     /// </summary>
-    public DateOnly? LeavedDate { get; set; }
+    public string City { get; set; }
 
     /// <summary>
-    /// 組織層級
+    /// 州/省
     /// </summary>
-    public int? OrganizationLevel { get; set; }
+    public string State { get; set; }
 
     /// <summary>
-    /// 主管員工編號
+    /// 國家
     /// </summary>
-    public int? HeadEmployeeId { get; set; }
+    public string Country { get; set; }
+
+    /// <summary>
+    /// 郵遞區號
+    /// </summary>
+    public string PostalCode { get; set; }
+
+    /// <summary>
+    /// 電話號碼
+    /// </summary>
+    public string Phone { get; set; }
+
+    /// <summary>
+    /// 傳真號碼
+    /// </summary>
+    public string Fax { get; set; }
+
+    /// <summary>
+    /// 電子郵件地址
+    /// </summary>
+    public string Email { get; set; }
 }
