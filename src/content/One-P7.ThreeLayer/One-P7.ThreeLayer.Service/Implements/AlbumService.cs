@@ -67,9 +67,7 @@ public class AlbumService(IAlbumRepository albumRepository) : IAlbumService
             AlbumId = resultModel.AlbumId,
             Title = resultModel.Title,
             ArtistId = resultModel.ArtistId,
-            ArtistName = resultModel.ArtistName,
-            Genre = resultModel.Genre,
-            Price = resultModel.Price
+            ArtistName = resultModel.ArtistName
         };
     }
 }

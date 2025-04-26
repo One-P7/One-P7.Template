@@ -24,14 +24,4 @@ public struct AlbumDto
     /// 藝術家名稱
     /// </summary>
     public string ArtistName { get; set; }
-
-    /// <summary>
-    /// 專輯類型
-    /// </summary>
-    public string Genre { get; set; }
-
-    /// <summary>
-    /// 專輯價格
-    /// </summary>
-    public decimal Price { get; set; }
 }

@@ -75,9 +75,7 @@ public class AlbumController(IAlbumService albumsService) : ControllerBase
             AlbumId = o.AlbumId,
             Title = o.Title,
             ArtistId = o.ArtistId,
-            ArtistName = o.ArtistName,
-            Genre = o.Genre,
-            Price = o.Price,
+            ArtistName = o.ArtistName
         };
     }
 }
